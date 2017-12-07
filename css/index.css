@@ -1,250 +1,54 @@
-html, body {
+body, html {
 	padding: 0px;
 	margin: 0px;
+	font-family: 'Raleway', sans-serif;	
 }
 
-.clr {
-	clear: both;
-}
-
-.container {
-	width: 1170px;
-	height: 1858px;
-	margin: 0 auto;
-}
-
-/* Footer */
-.navcontainer {
-	width: 1600px;
-	height: 50px;
+.navbar {
 	background-color: black;
 }
 
-.navotherbuttons.buttons {
-	float: left;
-	margin: 0px;
-	display: inline;
-	box-sizing: border-box;
+.page-header {
+	text-align: left;
 }
 
-/* Top Third */
-
-#top_third {
-	width: 100%;
-	height: 30%;
+.page-header h1{
+	color: red;
 }
 
-#top_third #left_side {
-	width: 30%;
-	height: 30%;
-	float: left;
+#logo {
+	margin-top: -10px;
+	width: 100px;
 }
 
-#top_third #left_side #left img {
-	padding-top: 50px;
-	width: 90%;
-	border-radius: 50%;
-}
-
-#top_third #right_side {
-	width: 70%;
-	height: 50%;
-	float: right;
-}
-
-#top_third #right_side h1 {
-font-size: 36px;
-}
-
-#top_third #right_side h2 {
-font-size: 36px;	
-}
-
-#top_third .university p {
-	margin: 0 0 10px;
-}
-
-#top_third .bio p {
+.bio {
 	font-size: 21px;
 }
 
-/*Middle Third*/
-
-#middle_third {
-	width: 100%;
-	height: 30%;
-	box-sizing: border-box;
-}
-
-#middle_third #left_side {
-	width: 30%;
-	height: 30%;
-	float: left;
-	box-sizing: border-box;
-}
-
-#middle_third #skills {
-	margin-bottom: 30px;
-	box-sizing: border-box;
-}
-
-#middle_third #skills h3 {
-	font-size: 24px;
-	box-sizing: border-box;
-}
-
-#middle_third #skills ul {
-	padding: 0px;
-	margin-top: 30px;
-	box-sizing: border-box;
-}
-
-#middle_third #skills ul li{
-	margin-top: 5px;
-	font-size: 1.1em;
-	margin-bottom: 10px;
-	box-sizing: border-box;
-}
-
-#middle_third #employment #company h5 {
-	font-size: 14px;
-	box-sizing: border-box;
-}
-
-#middle_third #employment #company h5 {
-	font-size: 85%;
-	box-sizing: border-box;
-}
-
-#middle_third #right_side {
-	width: 70%;
-	height: 50%;
-	float: right;
-	box-sizing: border-box;
-}
-
-#middle_third #right_side #right h3 {
-	font-size: 24px;
-}
-#middle_third #right_side #right h4 {
-	margin-top: : 30px;
-	font-size: 14px;
+.row-margin h4{
 	color: red;
 }
 
-#middle_third #right_side #right p {
-	margin: 0 0 10px;
-}
-
-/*Bottom Third */
-
-#bottom_third {
-	width: 100%;
-	height: 30%;
-}
-
-#bottom_third #left_side {
-	width: 30%;
-	height: 30%;
-	float: left;
-	box-sizing: border-box;
-}
-
-#bottom_third #right_side {
-	width: 70%;
-	height: 50%;
-	float: right;
-	box-sizing: border-box;
-}
-
-#bottom_third #right_side #right h3 {
-	font-size: 24px;
-}
-#bottom_third #right_side #right h4 {
-	margin-top: : 30px;
-	font-size: 14px;
+.row-margin h1{
+	font-size: 36px;
 	color: red;
 }
 
-#bottom_third #right_side #right p {
-	margin: 0 0 10px;
+.row-margin p{
+	font-size: 21px;
 }
 
-#bottom_third #right_side #right h5 {
-	font-size: 14px;
+.row-margin b{
+	color: #333;
+	font-size: 15px;
 }
 
-#bottom_third #right_side #right ul {
-	margin-top: 0px;
-	margin-bottom: 10px;
+.row-margin .education h4{
+	color: #333;
 }
 
-@media screen and (max-width: 960px) {
-
-	.container {
-		width: auto;
-		float: none;
-	}
-
-	.container #top_third {
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
-	.container #top_third img{
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
-	.container #top_third #right_side {
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
-	.container #top_third #left_side #left {
-		padding-left: 5px;
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
-	.container #middle_third {
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
-	.container #middle_third #right_side {
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
-	.container #middle_third #left_side {
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
-	.container #bottom_third {
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
-	.container #bottom_third #right_side {
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
-	.container #bottom_third #left_side {
-		height: auto;
-		width: auto;
-		float: none;
-	}
-
+.row-margin .skills ul li{
+	margin-bottom: 5px;
+    font-size: 1.1em;
+    margin-top: 15px;
 }
