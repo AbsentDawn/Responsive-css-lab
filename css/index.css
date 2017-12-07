@@ -183,11 +183,68 @@ font-size: 36px;
 
 	.container {
 		width: auto;
-		float: bottom;
+		float: none;
+	}
+
+	.container #top_third {
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
+	.container #top_third img{
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
+	.container #top_third #right_side {
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
+	.container #top_third #left_side #left {
+		padding-left: 5px;
+		height: auto;
+		width: auto;
+		float: none;
 	}
 
 	.container #middle_third {
+		height: auto;
 		width: auto;
-		float: bottom;
+		float: none;
 	}
+
+	.container #middle_third #right_side {
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
+	.container #middle_third #left_side {
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
+	.container #bottom_third {
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
+	.container #bottom_third #right_side {
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
+	.container #bottom_third #left_side {
+		height: auto;
+		width: auto;
+		float: none;
+	}
+
 }
