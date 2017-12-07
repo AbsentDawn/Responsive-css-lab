@@ -1,7 +1,7 @@
 html, body {
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Raleway', sans-serif;	
+	font-family: 'Raleway', sans-serif;
 }
 
 .clr {
@@ -24,10 +24,8 @@ html, body {
 
 .navotherbuttons ul{
 	float: left;
-	padding-left: 20px;
-	margin-left: 200px;
+	margin: 0px;
 	display: inline-block;
-	color: white;
 	box-sizing: border-box;
 }
 .navotherbuttons ul li{
