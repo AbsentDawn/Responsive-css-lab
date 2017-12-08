@@ -18,4 +18,8 @@
 ### Google inspect is a very powerful tool used in making the webpage. Not only does Google's inspect allow us to view our webpage in a debugged state by giving us the freedom to move, remove, add, delete different elements but it also allow us to see results in various different screen resolutions. Extremely effective when wanting see how our page reacts in different circumstances.
 
 ## INSTALLATION AND USAGE
+### To use, clone from github respository. Once you see the following files
 
+*index.html 
+
+open it with yourj desired browser and enjoy.
